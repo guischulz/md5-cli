@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "types.h"
+#include "md5.h"
 
 /*
  *	PRIVATE FUNCTIONS

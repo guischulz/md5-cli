@@ -17,7 +17,7 @@
 #ifndef PG_MD5_H
 #define PG_MD5_H
 
-#include "types.h"
+#include "..\..\types.h"
 
 #define MD5_PASSWD_LEN 35
 

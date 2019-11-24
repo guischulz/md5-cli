@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "ketopt.h"
-#include "md5.h"
+#include "extern/klib/ketopt.h"
+#include "extern/postgres/md5.h"
 #include "types.h"
 
 #define MD5_DIGEST_LEN 32

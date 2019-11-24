@@ -5,7 +5,7 @@ rem Visual Studio 2010 C++ build tools
 call "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\vcvarsall.bat" x86
 
 set CCFLAGS=/c /nologo /MD /O2 /W3 /D "NDEBUG" -DWIN32 -D_CRT_SECURE_NO_WARNINGS
-cl %CCFLAGS% md5.c md5cli.c
+cl %CCFLAGS% extern/postgres/md5.c md5cli.c
 link md5.obj md5cli.obj msvcrt.lib kernel32.lib
 
 if exist md5.exe (
