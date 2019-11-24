@@ -10,7 +10,7 @@ link md5.obj md5cli.obj msvcrt.lib kernel32.lib
 
 if exist md5.exe (
   if not exist %~dp0Release md %~dp0Release
-  copy md5.exe %~dp0Release\md5.exe
+  copy /y md5.exe %~dp0Release\md5.exe
 )
 if exist md5.exe del md5.exe
 if exist md5.obj del md5.obj

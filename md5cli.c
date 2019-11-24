@@ -49,7 +49,6 @@ int main(int argc, char *argv[]) {
 
   passwd = argv[opt.ind];
 
-
   digest_buf = malloc(MD5_DIGEST_LEN + 1);
   if (!digest_buf) {
     fprintf(stderr, "ERROR: Malloc failed\n");
