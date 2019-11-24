@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="md5.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="ketopt.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="types.h">
       <Filter>Quelldateien</Filter>
     </ClInclude>
+    <ClInclude Include="extern\klib\ketopt.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\postgres\md5.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="md5.c">
+    <ClCompile Include="md5cli.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="md5cli.c">
+    <ClCompile Include="extern\postgres\md5.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
